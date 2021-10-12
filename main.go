@@ -35,7 +35,8 @@ type Chat struct {
 	Id int `json:"id"`
 }
 
-type ContextKey string
+// type ContextKey string
+// const ContextUserKey ContextKey = "user"
 
 var bot *tgbotapi.BotAPI
 var userID string
@@ -45,11 +46,10 @@ var pastWords [10]string
 var commandsBool = make(map[string]bool)
 
 const (
-	botToken                  = "2076031254:AAEQdlEwO1aBeBDkkq-nEksH3cDTzJ926UE"
-	ContextUserKey ContextKey = "user"
-	baseURL                   = "https://<YOUR-APP-NAME>.herokuapp.com/"
-	pathToFoto                = "static/"
-	fileName                  = "descriptions2.json"
+	botToken   = "2076031254:AAEQdlEwO1aBeBDkkq-nEksH3cDTzJ926UE"
+	baseURL    = "https://peaceful-caverns-15114.herokuapp.com/"
+	pathToFoto = "static/"
+	fileName   = "descriptions2.json"
 )
 
 func initTelegram() {
