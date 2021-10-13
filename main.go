@@ -46,8 +46,8 @@ var pastWords [10]string
 var commandsBool = make(map[string]bool)
 
 const (
-	botToken   = "2076031254:AAEQdlEwO1aBeBDkkq-nEksH3cDTzJ926UE"
-	baseURL    = "https://peaceful-caverns-15114.herokuapp.com/"
+	botToken   = "botToken"
+	baseURL    = "https://heroku_app_name_registered.herokuapp.com/"
 	pathToFoto = "static/"
 	fileName   = "descriptions2.json"
 )
