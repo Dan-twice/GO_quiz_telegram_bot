@@ -24,8 +24,11 @@ require (
 
 require (
 	github.com/heroku/x v0.0.33
-	github.com/lib/pq v1.10.3
+	github.com/lib/pq v1.10.9
 	github.com/technoweenie/multipartstreamer v1.0.1 // indirect
 )
 
-require google.golang.org/protobuf v1.27.1 // indirect
+require (
+	github.com/jmoiron/sqlx v1.3.5 // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
+)

@@ -1,4 +1,4 @@
-package main
+package fordeletion
 
 import (
 	"encoding/json"
